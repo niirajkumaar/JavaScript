@@ -69,3 +69,31 @@ console.log(isLoggedIn)
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn)
 // 1==> true     ; 0==> false  ;empty string==> false  ; "niraj"==>true
+
+console.log("************************************************OPERATIONS*****************************")
+
+let value =3
+let negValue =-value
+console.log(negValue)
+console.log(2+2)
+console.log(2**2) /// 2 to the power 2
+
+let str1 = "hello"
+let str2 = " niraj"
+str3 = str1+str2
+console.log(str3)
+console.log("1"+2)   // string ==>12
+console.log("1"+2+2) // string==>122
+console.log(1+2+"2") //string ==>32
+
+console.log(true)  //true
+console.log(+true)  //1
+//console.log(true+)   //error
+console.log(+"")  //0
+
+
+console.log("---------------assignment operator--------")
+let gameCounter = 100
+gameCounter++  //101
+console.log(gameCounter++)  //101 will be printed and then value is incemented by 1==>102
+console.log(++gameCounter) //103  -----first value is incremented by 1 and becomes 102+1=103 and then 103 is printed
