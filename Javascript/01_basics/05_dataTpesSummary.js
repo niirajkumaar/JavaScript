@@ -62,3 +62,36 @@ console.log(myObj)
 const myFunction=function(){
     console.log("hello function");
 }
+
+//stack and heap memory-----------
+
+// stack(primitive)    ---copy     , heap(non primitive)--reference
+
+let myName = "niraj"
+
+let anotherName = myName
+
+console.log(myName)
+
+anotherName="kumar"
+console.log(anotherName)
+
+
+//non primitive data type---reference
+
+let userOne ={
+    email:"user@gmail.com",
+    upi :"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@google.com"
+
+console.log(userOne.email)    //updated
+console.log(userTwo.email)    //updated
+
+
+
+
+
